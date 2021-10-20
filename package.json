@@ -4,8 +4,7 @@
   "description": "CRIEI PAGINA VENDA HTML, CSS, JAVASCRIPT, EXPRESS, BANCO DE DADOS",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
-    "dev": "nodemon index"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
