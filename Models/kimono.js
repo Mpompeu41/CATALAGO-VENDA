@@ -1,5 +1,5 @@
 const Sequelize = require("sequelize");
-const database = require("./../database");
+const database = require("../database");
 
 const Kimono = database.define("kimono", {
   id: {
@@ -17,7 +17,6 @@ const Kimono = database.define("kimono", {
     allowNull: false,
   },
   cor: Sequelize.STRING,
-
   preco: {
     type: Sequelize.DECIMAL,
     allowNull: false,
