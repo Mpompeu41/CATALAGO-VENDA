@@ -39,6 +39,11 @@
           style="float: right; width: 400px"
         />
       </p> -->
+      <% if(message != "") {  %>
+        <section id="message">
+          <p><%= message %></p> <span id="close">&times;</span>
+        </section>
+      <% }  %>
 
       <div class="container">
         <%kimono.forEach(item=> {%>

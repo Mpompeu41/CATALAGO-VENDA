@@ -73,7 +73,7 @@ app.post("/editar/:id", async (req, res) => {
 
   const kimonoEditado = await kimono.save();
   kimonoEditado,
-    (message = `O kimono ${kimono.nome} foi Editado com sucesso!!`),
+    message = `O kimono ${kimono.nome} foi Editado com sucesso!!`,
     res.redirect("/");
 });
 
